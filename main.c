@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "funciones.h"
 
 int main()
 {
@@ -9,7 +10,7 @@ int main()
    float restaDeOperandos;
    float multiplicacionDeOperandos;
    float divisionDeOperandos;
-   float factorialDeOperando;
+   int factorialDeOperando;
 
     printf("Ingrese el primer numero.");
     scanf("%f",operandoA);
@@ -19,7 +20,7 @@ int main()
     restaDeOperandos=operandoA-operandoB;
     multiplicacionDeOperandos=operandoA*operandoB;
     divisionDeOperandos=operandoA/operandoB;
-    factorialDeOperando=
 
     return 0;
 }
+
