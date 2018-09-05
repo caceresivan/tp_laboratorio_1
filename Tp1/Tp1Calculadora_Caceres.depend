@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1536083470 source:/home/ivan/Escritorio/Tp 1 Calculadora/Tp1Calculadora_Caceres/funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1536083546 /home/ivan/Escritorio/Tp 1 Calculadora/Tp1Calculadora_Caceres/funciones.h
+
+1536083242 source:/home/ivan/Escritorio/Tp 1 Calculadora/Tp1Calculadora_Caceres/main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1536152161 source:/home/ivan/Escritorio/Tp_Laboratorio_1/Tp1/tp_laboratorio_1/main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1536151056 /home/ivan/Escritorio/Tp_Laboratorio_1/Tp1/tp_laboratorio_1/funciones.h
+
+1536151629 source:/home/ivan/Escritorio/Tp_Laboratorio_1/Tp1/tp_laboratorio_1/funciones.c
+	<stdio_ext.h>
+	<stdlib.h>
+	"funciones.h"
+
+1536155217 source:/home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp1/main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1536155249 /home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp1/funciones.h
+
+1536155101 source:/home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp1/funciones.c
+	<stdio_ext.h>
+	<stdlib.h>
+	"funciones.h"
+
