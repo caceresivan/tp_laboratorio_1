@@ -27,5 +27,6 @@ int ordenByLastNameOrSector(Employee* pBuffer,int limite,int flag);
 int printEmployees(Employee* pBuffer,int limite);
 int modificarById(Employee* pBuffer,int limite,int id);
 int emp_totalPromedioYMayoresAlPromedio(Employee* pBuffer,int limite,int* cantidadMayor,float* promedio,float* total);
+int ingresoForzado(Employee* pBuffer,int limite,char* name,char* lastName,int id,float salary,int sector);
 
 #endif // EMPLOYEE_H_INCLUDED

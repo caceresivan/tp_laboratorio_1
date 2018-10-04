@@ -92,7 +92,7 @@ int modificarById(Employee* pBuffer,int limite,int id)
                         case 2:
                              if(utn_getLetras(auxLastName,CANTIDADEMPLOYEES,3,"\n Ingrese el apellido: ","\n Error, ingrese un apellido valido.")==0)
                             {
-                                strcpy(pBuffer[i].lastName,auxLastName,60);
+                                strcpy(pBuffer[i].lastName,auxLastName);
                             }
                             break;
                         case 3:
@@ -240,5 +240,20 @@ int emp_totalPromedioYMayoresAlPromedio(Employee* pBuffer,int limite,int* cantid
         }
     }
     *cantidadMayor=contador;
+    return 0;
+}
+
+int ingresoForzado(Employee* pBuffer,int limite,char* name,char* lastName,int id,float salary,int sector)
+{
+    int aux;
+
+    searchEmptyIndex(pBuffer,limite,&aux);
+    strcpy(pBuffer[aux].name,name);
+    strcpy(pBuffer[aux].lastName,lastName);
+    pBuffer[aux].id=generarId();
+    pBuffer[aux].salary=salary;
+    pBuffer[aux].sector=sector;
+    pBuffer[aux].isEmpty=0;
+
     return 0;
 }
