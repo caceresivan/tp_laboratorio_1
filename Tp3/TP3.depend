@@ -1,0 +1,143 @@
+# depslib dependency file v1.0
+1533062952 source:/home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/Employee.c
+
+1533063050 source:/home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1532354323 /home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/LinkedList.h
+
+1533062926 /home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/Employee.h
+
+1533063080 source:/home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1533062952 source:/home/mauro/Descargas/TP3/Linux_64/Employee.c
+
+1533066103 source:/home/mauro/Descargas/TP3/Linux_64/main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1532354323 /home/mauro/Descargas/TP3/Linux_64/LinkedList.h
+
+1533066103 /home/mauro/Descargas/TP3/Linux_64/Employee.h
+
+1533063080 source:/home/mauro/Descargas/TP3/Linux_64/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1533145792 source:/home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/Controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1533118898 /home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/LinkedList.h
+
+1533118898 /home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/Employee.h
+
+1533118898 source:/home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/Employee.c
+
+1533145890 source:/home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1540960816 source:/home/alumno/Escritorio/CaceresIvan/clase-2-programacion-laboratorio-master/Linux_64/biblioteca.c
+	<stdio_ext.h>
+	<stdlib.h>
+	"biblioteca.h"
+	<string.h>
+
+1540960816 /home/alumno/Escritorio/CaceresIvan/clase-2-programacion-laboratorio-master/Linux_64/biblioteca.h
+
+1541029270 source:/home/alumno/Escritorio/CaceresIvan/clase-2-programacion-laboratorio-master/Linux_64/Controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+
+1540516617 /home/alumno/Escritorio/CaceresIvan/clase-2-programacion-laboratorio-master/Linux_64/LinkedList.h
+
+1541029561 /home/alumno/Escritorio/CaceresIvan/clase-2-programacion-laboratorio-master/Linux_64/Employee.h
+
+1540516617 /home/alumno/Escritorio/CaceresIvan/clase-2-programacion-laboratorio-master/Linux_64/parser.h
+
+1541029563 source:/home/alumno/Escritorio/CaceresIvan/clase-2-programacion-laboratorio-master/Linux_64/Employee.c
+	"Employee.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1541025065 source:/home/alumno/Escritorio/CaceresIvan/clase-2-programacion-laboratorio-master/Linux_64/main.c
+	<stdio_ext.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"biblioteca.h"
+
+1540516617 /home/alumno/Escritorio/CaceresIvan/clase-2-programacion-laboratorio-master/Linux_64/Controller.h
+
+1541029508 source:/home/alumno/Escritorio/CaceresIvan/clase-2-programacion-laboratorio-master/Linux_64/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1541093125 source:/home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp3/biblioteca.c
+	<stdio_ext.h>
+	<stdlib.h>
+	"biblioteca.h"
+	<string.h>
+
+1541093135 /home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp3/biblioteca.h
+
+1541095287 source:/home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp3/Controller.c
+	<stdio_ext.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"parser.h"
+	"biblioteca.h"
+
+1541034967 /home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp3/LinkedList.h
+
+1541093532 /home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp3/Employee.h
+
+1541034967 /home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp3/parser.h
+
+1541093193 source:/home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp3/Employee.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+	"biblioteca.h"
+
+1541034967 source:/home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp3/main.c
+	<stdio_ext.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"biblioteca.h"
+
+1541034967 /home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp3/Controller.h
+
+1541095228 source:/home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp3/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
