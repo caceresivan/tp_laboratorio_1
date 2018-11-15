@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1542261657 source:/home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp2/Tp2_Caceres/biblioteca.c
+	<stdio_ext.h>
+	<stdlib.h>
+	"biblioteca.h"
+	<string.h>
+
+1542261677 /home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp2/Tp2_Caceres/biblioteca.h
+
+1542261664 source:/home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp2/Tp2_Caceres/employee.c
+	<stdio_ext.h>
+	<stdlib.h>
+	"employee.h"
+	"biblioteca.h"
+	<string.h>
+
+1542261684 /home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp2/Tp2_Caceres/employee.h
+	<stdio_ext.h>
+	<stdlib.h>
+	"biblioteca.h"
+	<string.h>
+
+1542262315 source:/home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp2/Tp2_Caceres/main.c
+	<stdio_ext.h>
+	<stdlib.h>
+	<string.h>
+	"biblioteca.h"
+	"employee.h"
+
+1542257141 source:/home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp2/Tp2_Caceres/Maqueta.c
+	<stdlib.h>
+	<string.h>
+	"biblioteca.h"
+	"employee.h"
+
