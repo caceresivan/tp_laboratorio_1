@@ -104,7 +104,7 @@
 
 1541093135 /home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp3/biblioteca.h
 
-1543407090 source:/home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp3/Controller.c
+1543415995 source:/home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp3/Controller.c
 	<stdio_ext.h>
 	<stdlib.h>
 	<string.h>
@@ -116,18 +116,18 @@
 
 1541034967 /home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp3/LinkedList.h
 
-1541093532 /home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp3/Employee.h
+1543413091 /home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp3/Employee.h
 
 1541034967 /home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp3/parser.h
 
-1541093193 source:/home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp3/Employee.c
+1543413782 source:/home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp3/Employee.c
 	<stdio_ext.h>
 	<stdlib.h>
 	<string.h>
 	"Employee.h"
 	"biblioteca.h"
 
-1543407765 source:/home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp3/main.c
+1543412397 source:/home/ivan/Escritorio/Tp_Laboratorio_1/tp_laboratorio_1/Tp3/main.c
 	<stdio_ext.h>
 	<stdlib.h>
 	"LinkedList.h"

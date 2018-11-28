@@ -33,14 +33,15 @@ int main()
         case 1:
             if(controller_loadFromText("data.csv",listaEmpleados))
             {
-
+                printf("Archivo cargado correctamente");
+                getchar();
             }
                 break;
         case 2:
-            controller_loadFromBinary("data.csv",listaEmpleados);
+            controller_loadFromBinary("data.bin",listaEmpleados);
                 break;
         case 3:
-            if(controller_addEmployee(listaEmpleados))
+            if(!controller_addEmployee(listaEmpleados))
             {
                 printf("Datos ingresados correctamente");
                 getchar();

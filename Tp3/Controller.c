@@ -78,27 +78,27 @@ int controller_loadFromBinary(char* path , LinkedList* pArrayListEmployee)
 int controller_addEmployee(LinkedList* pArrayListEmployee)
 {
     Employee *pEmployee;
-    char auxId[50];
     char auxNombre[50];
-    char auxSueldo[50];
-    char auxHorasTrabajadas[50];
-    int retorno=0;
+    int auxSueldo;
+    int auxHorasTrabajadas;
+    char auxId[50];
+    int retorno=-1;
 
 
-    if(utn_getLetras(auxId,1000,5,"Ingrese ID: ","\nError")&&
-       utn_getLetras(auxNombre,1000,5,"Ingrese Nombre: ","\nError")&&
-       utn_getLetras(auxSueldo,1000,5,"Ingrese Sueldo: ","\nError")&&
-       utn_getLetras(auxHorasTrabajadas,1000,5,"Ingrese Horas Trabajadas: ","\nError"))
+    if(pArrayListEmployee!=NULL&&
+       !utn_getLetras(auxNombre,50,5,"Ingrese Nombre: ","\nError")&&
+       !utn_getInt(&auxSueldo,"Ingrese Sueldo: ","Error...",0,10000,5)&&
+       !utn_getInt(&auxHorasTrabajadas,"Ingrese horas trabajadas: ","Error...",0,10000,5))
        {
             pEmployee=employee_newParametros(auxId,
                                              auxNombre,
-                                             auxHorasTrabajadas,
-                                             auxSueldo);
+                                             (char*)auxHorasTrabajadas,
+                                             (char*)auxSueldo);
        }
        if(pEmployee!=NULL)
        {
             ll_add(pArrayListEmployee,pEmployee);
-            retorno=1;
+            retorno=0;
        }
        else
        {
