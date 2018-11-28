@@ -85,10 +85,10 @@ int controller_addEmployee(LinkedList* pArrayListEmployee)
     int retorno=0;
 
 
-    if(utn_getLetras(auxId,1000,5,"Ingrese ID: ","Error")&&
-       utn_getLetras(auxNombre,1000,5,"Ingrese Nombre: ","Error")&&
-       utn_getLetras(auxSueldo,1000,5,"Ingrese Sueldo: ","Error")&&
-       utn_getLetras(auxHorasTrabajadas,1000,5,"Ingrese Horas Trabajadas: ","Error"))
+    if(utn_getLetras(auxId,1000,5,"Ingrese ID: ","\nError")&&
+       utn_getLetras(auxNombre,1000,5,"Ingrese Nombre: ","\nError")&&
+       utn_getLetras(auxSueldo,1000,5,"Ingrese Sueldo: ","\nError")&&
+       utn_getLetras(auxHorasTrabajadas,1000,5,"Ingrese Horas Trabajadas: ","\nError"))
        {
             pEmployee=employee_newParametros(auxId,
                                              auxNombre,

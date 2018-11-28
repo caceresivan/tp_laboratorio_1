@@ -31,19 +31,42 @@ int main()
         switch(option)
         {
         case 1:
-            controller_loadFromText("data.csv",listaEmpleados);
+            if(controller_loadFromText("data.csv",listaEmpleados))
+            {
+
+            }
                 break;
         case 2:
             controller_loadFromBinary("data.csv",listaEmpleados);
                 break;
         case 3:
-            controller_addEmployee(listaEmpleados);
+            if(controller_addEmployee(listaEmpleados))
+            {
+                printf("Datos ingresados correctamente");
+                getchar();
+            }
                 break;
-        /*case 4:
-        case 5:*/
+        case 4:
+            controller_editEmployee(listaEmpleados);
+                break;
+        case 5:
+            controller_removeEmployee(listaEmpleados);
+                break;
+        case 6:
+            controller_ListEmployee(listaEmpleados);
+                break;
+        case 7:
+            controller_sortEmployee(listaEmpleados);
+                break;
+        case 8:
+            controller_saveAsText("data.csv",listaEmpleados);
+                break;
+        case 9:
+            controller_saveAsBinary("data.csv",listaEmpleados);
+                break;
         }
     }
-    while(option != 5);
+    while(option != 10);
     return 0;
 }
 int menu(int* opcion)
