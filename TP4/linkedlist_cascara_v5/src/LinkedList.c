@@ -540,28 +540,32 @@ int ll_sort(LinkedList* this, int (*pFunc)(void* ,void*), int order)
     Node* pNode;
     Node* node2;
 
-    flag=1;
-    while(flag==1)
+   // flag=1;
+    if(this!=NULL && (!order||order==1)&&lenList>0&&pFunc!=NULL)
     {
-        flag=0;
-        pNode=this->pFirstNode;
-        if(pNode!=NULL)
+        while(flag==1)
         {
-            node2=pNode->pNextNode;
-            for(i=1;i<(lenList-1);i++)
+            flag=0;
+            pNode=this->pFirstNode;
+            if(pNode!=NULL)
             {
-                if((pFunc(pNode->pElement,node2)==1 && order)
-                   || (pFunc(pNode->pElement,node2)==-1 && order))
+                node2=pNode->pNextNode;
+                for(i=1; i<(lenList-1); i++)
                 {
-                    aux=pNode->pElement;
-                    pNode->pElement=node2->pElement;
-                    node2->pElement=aux;
-                    flag=1;
+                    if((pFunc(pNode->pElement,node2)==1 && order)
+                    || (pFunc(pNode->pElement,node2)==-1 && order))
+                    {
+                        aux=pNode->pElement;
+                        pNode->pElement=node2->pElement;
+                        node2->pElement=aux;
+                        flag=1;
+                    }
                 }
             }
+            returnAux=0;
         }
-        returnAux=0;
     }
+
     return returnAux;
 
 }
